@@ -11,6 +11,7 @@ trait MobileUserAuthentication
     {
         if ($this->loginMobile === $loginMobile && $this->passwordMobile === $passwordMobile) {
             echo "-----Авторизация----- \n";
+            echo 'Пользователь авторизовался как пользователь мобильного приложения';
             return true;
         }
         return false;

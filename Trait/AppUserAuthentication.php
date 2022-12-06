@@ -11,6 +11,7 @@ trait AppUserAuthentication
     {
         if ($this->loginApp === $loginApp && $this->passwordApp === $passwordApp) {
             echo "-----Авторизация----- \n";
+            echo 'Пользователь авторизовался как пользователь приложения';
             return true;
         }
         return false;
