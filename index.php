@@ -10,11 +10,3 @@ function access($login, $password): void
 }
 
 access('AppUser', 123);
-
-
-
-
-
-
-
-
